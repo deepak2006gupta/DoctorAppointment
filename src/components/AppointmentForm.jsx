@@ -15,7 +15,7 @@ import {
   Typography,
 } from "@mui/material";
 import { DatePicker, TimePicker } from "@mui/x-date-pickers";
-import { useAppointments } from "../hooks/useAppointments";
+import useAppointments from "../hooks/useAppointments";
 
 export default function AppointmentForm() {
   const { addAppointment } = useAppointments();
